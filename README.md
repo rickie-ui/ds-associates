@@ -1,6 +1,7 @@
 ## D&S Associates
-
 This project combines elegant design elements with powerful features, offering accounting firms a robust platform to showcase their skills, highlight key services, and foster client relationships.
+
+
 ![Logo](https://github.com/rickie-ui/ds-associates/blob/main/src/assets/ds-logo.png?raw=true)
 
 ### Activity:
