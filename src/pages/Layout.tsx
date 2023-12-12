@@ -6,6 +6,7 @@ import { Link, Outlet } from "react-router-dom";
 import { useMediaQuery } from "@uidotdev/usehooks";
 import { useState } from "react";
 import { linkRoutes } from "@/constants/routes";
+import Footer from "@/components/Footer/Footer";
 
 const Layout = () => {
   const isMediumDevice = useMediaQuery("only screen and (min-width : 1024px)");
@@ -77,6 +78,8 @@ const Layout = () => {
       <main>
         <Outlet />
       </main>
+
+      <Footer />
     </>
   );
 };

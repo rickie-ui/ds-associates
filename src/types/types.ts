@@ -1,8 +1,8 @@
-import { ElementType } from "react";
+import { ElementType, ReactNode } from "react";
 
 export type NavLinkProps = {
   to: string;
-  children: string;
+  children: string | ReactNode;
 };
 
 export type routesProps = {

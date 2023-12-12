@@ -17,10 +17,10 @@ const About = () => {
       <section className="mt-10 grid w-full grid-cols-1 gap-4 py-10  lg:mt-32 lg:grid-cols-2">
         <div>
           <h2 className="mb-6 text-lg font-semibold text-primary">
-            Who We Are
+            Why Choose Us
           </h2>
           <h2 className=" my-4 font-montserrat text-5xl">
-            Experience When It Matters Most
+            We Are Ready To Help You To Get A Solution
           </h2>
           <p className=" text-base opacity-70">
             Leverage our extensive expertise in Accounting & Tax Services,

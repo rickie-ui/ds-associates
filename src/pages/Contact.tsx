@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="mx-2 my-20 grid grid-cols-3 gap-4">
+      <section className="mx-2 my-20 grid grid-cols-1 gap-8 pb-14 lg:grid-cols-3 lg:gap-4 lg:pb-0">
         <div className="flex items-center gap-4 ">
           <div>
             <TfiAlarmClock className="text-primary" />
