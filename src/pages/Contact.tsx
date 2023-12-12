@@ -8,8 +8,8 @@ const Contact = () => {
       <section className="group relative mx-auto flex h-72 w-full flex-col justify-center bg-[url('./assets/taxes1.jpg')] bg-cover bg-center text-center  text-white">
         <div className="absolute inset-0 bg-secondary opacity-70"></div>
         <div className="relative z-10 w-full">
-          <h2 className="font-montserrat text-5xl">Contact Us</h2>
-          <p className="my-8 text-lg text-primary opacity-90">
+          <h2 className="fade-in-top font-montserrat text-5xl">Contact Us</h2>
+          <p className="fade-in-bottom my-8 text-lg text-primary opacity-90">
             Home &gt; Contact
           </p>
         </div>

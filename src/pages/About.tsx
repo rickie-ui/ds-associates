@@ -7,8 +7,8 @@ const About = () => {
       <section className="group relative mx-auto flex h-72 w-full flex-col justify-center bg-[url('./assets/taxes1.jpg')] bg-cover bg-center text-center  text-white">
         <div className="absolute inset-0 bg-secondary opacity-70"></div>
         <div className="relative z-10 w-full">
-          <h2 className="font-montserrat text-5xl">About Us</h2>
-          <p className="my-8 text-lg text-primary opacity-90">
+          <h2 className="fade-in-top font-montserrat text-5xl">About Us</h2>
+          <p className="fade-in-bottom my-8 text-lg text-primary opacity-90">
             Home &gt; About
           </p>
         </div>
@@ -19,7 +19,7 @@ const About = () => {
           <h2 className="mb-6 text-lg font-semibold text-primary">
             Why Choose Us
           </h2>
-          <h2 className=" my-4 font-montserrat text-5xl">
+          <h2 className=" fade-in-top my-4 font-montserrat text-5xl">
             We Are Ready To Help You To Get A Solution
           </h2>
           <p className=" text-base opacity-70">
@@ -66,7 +66,7 @@ const About = () => {
           autoPlay
           loop
           muted
-          className="min-h-[250px] w-full object-cover  lg:min-h-[600px] lg:w-11/12"
+          className="slide-in-right min-h-[250px] w-full  object-cover lg:min-h-[600px] lg:w-11/12"
         >
           <source src={Video} type="video/mp4" />
         </video>
