@@ -16,7 +16,7 @@ const Layout = () => {
   return (
     <>
       {isMediumDevice ? (
-        <nav className="mx-auto flex h-28 w-8/12 items-center justify-between text-sm">
+        <nav className="mx-auto flex h-28 w-9/12 items-center justify-between text-sm">
           <div className="flex items-center  font-montserrat ">
             <img src={Logo} alt="logo" className=" h-28" />
             <h2 className="text-lg opacity-60">

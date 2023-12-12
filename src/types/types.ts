@@ -1,3 +1,5 @@
+import { ElementType } from "react";
+
 export type NavLinkProps = {
   to: string;
   children: string;
@@ -7,4 +9,11 @@ export type routesProps = {
   id: number;
   path: string;
   title: string;
+};
+
+export type servicesProps = {
+  id: number;
+  title: string;
+  icon: ElementType;
+  description: string;
 };
